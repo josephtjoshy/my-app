@@ -1,0 +1,21 @@
+  <div class="heading">Latest 20 NEWS</div>
+
+<div class="main"> 
+  
+  <div class="cardd" *ngFor="let item of data.articles">
+      <div>
+        <div>
+            <div class="title">{{ item.title }}</div>
+          </div>
+          <h6 class="text-right">{{ item.author }}</h6>
+          <div>
+            <img class="img-fluid" src="{{ item.urlToImage }}" />
+          </div>
+          <div class="description">{{ item.description }}</div>
+          <a href="{{ item.url }}">{{ item.url }}</a>
+      
+          <div>{{ item.publishedAt }}</div>
+      </div>
+    
+  </div>
+</div>

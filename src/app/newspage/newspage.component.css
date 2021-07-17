@@ -1,0 +1,44 @@
+.title{
+    padding-top: 10px;
+    font-size:x-large;
+    font-weight: 1000;
+    padding: 8px;
+    color: black;
+
+}
+.heading{
+    text-align: center;
+    font-size:50px;
+    font-weight: 1000;
+    background-color: teal;
+    color: thistle;
+}
+.description{
+    color: white;
+    font-style: italic;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+   background-color: rgb(182, 202, 146);
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-top: 0px;
+}
+.cardd{
+width: 25%;
+border-style:double;
+padding: 10px;
+border-width: 2px;
+border-color: cornflowerblue;
+border-radius: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+box-shadow: 1px 1px 1px 1px cornflowerblue;
+
+}
+.cardd:hover{
+    
+    box-shadow: 2px 2px 2px 2px cornflowerblue;
+}
